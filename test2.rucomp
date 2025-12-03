@@ -1,0 +1,8 @@
+args a;
+int b;
+if a < 10 then {
+    b = a + 1;
+} else {
+    b = a + 2;
+}
+return b;

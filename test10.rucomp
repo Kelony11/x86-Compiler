@@ -1,0 +1,14 @@
+args a;
+int x, y, z;
+x = 1;
+y = 2;
+z = 0;
+if a < 5 then {
+    z = x + y;
+} else {
+    z = (a * x) + (y * 2);
+}
+while z < 30 then {
+    z = z + a;
+}
+return z;

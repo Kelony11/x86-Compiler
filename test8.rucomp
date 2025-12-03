@@ -1,0 +1,8 @@
+args a;
+int x;
+if a >= 10 then {
+    x = 100;
+} else {
+    x = 1;
+}
+return x;

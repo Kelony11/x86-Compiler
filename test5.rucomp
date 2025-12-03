@@ -1,0 +1,13 @@
+args a;
+int x, count;
+x = 0;
+count = 0;
+while x < a then {
+    if x == 3 then {
+        count = count + 10;
+    } else {
+        count = count + 1;
+    }
+    x = x + 1;
+}
+return count;

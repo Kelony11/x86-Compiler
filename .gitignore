@@ -1,0 +1,14 @@
+# Rust / Cargo
+target/
+
+# macOS
+.DS_Store
+
+# Build artifacts from tests
+*.o
+*.out
+*_p2.s
+
+# Tarballs / archives
+*.tar
+*.tar.gz
