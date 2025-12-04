@@ -17,7 +17,7 @@ This project implements a **two-stage Rust compiler toolchain** that lowers a sm
 
 All regression tests and C harnesses live under `tests/`, and a top-level `Makefile` automates building and running everything.
 
-# x86-64 Code Generation ♺
+# ♺ x86-64 Code Generation 
     - Part 1: Expression → x86-64
         - Emits a function:
         ```
@@ -50,7 +50,7 @@ All regression tests and C harnesses live under `tests/`, and a top-level `Makef
             ...
             ```
 
-# TECHNICAL STACK 🧱
+# 🧱 TECHNICAL STACK 
 - Languages / Tools
     - Rust + Cargo
     - C (for test harnesses)
@@ -63,7 +63,7 @@ All regression tests and C harnesses live under `tests/`, and a top-level `Makef
 The instructions to run & build this project is in another ReadME placed inside the `tests` folder 📁.
 
 
-# WHAT'S NEXT?
+# 🤔 WHAT'S NEXT?
 
 - Optimizations:
     - Common subexpression elimination for repeated subtrees (Part 1).
@@ -78,6 +78,6 @@ The instructions to run & build this project is in another ReadME placed inside 
     - Arrays or simple heap allocation.
     - More operators (division, modulo, logical &&, ||)
 
-# Contributors 👤
+# 👤 Contributors 
 
 - Kelvin Ihezue
